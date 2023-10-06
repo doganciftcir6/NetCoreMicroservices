@@ -1,0 +1,24 @@
+﻿using FreeCourse.Services.Catalog.Models;
+using MongoDB.Bson.Serialization.Attributes;
+using System;
+
+namespace FreeCourse.Services.Catalog.Dtos
+{
+    public class CourseDto
+    {
+        public string Id { get; set; }
+        public string Name { get; set; }
+        public decimal Price { get; set; }
+        public string UserId { get; set; }
+        public string Picture { get; set; }
+        public string Description { get; set; }
+        public DateTime CreatedTime { get; set; }
+
+        //bireçok ilişki categoryin birden çok kursu olabilir ama bir kursun sadece bir kategorisi olabilir
+        public string CategoryId { get; set; }
+        public CategoryDto Category { get; set; }
+
+        //birebir ilişki
+        public FeatureDto Feature { get; set; }
+    }
+}

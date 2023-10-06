@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Pbz25SA0dsM5rIPGJMUhrw8pq1IraFalRi5wzQftcVF0MmGPSru5tLuH832fFOVEgwYIstlLJt45oWGqipzP0w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dogan\\OneDrive\\Masaüstü\\UdemyMicroservices\\Services\\Order\\FreeCourse.Services.Order.Domain\\FreeCourse.Services.Order.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dogan\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\dogan\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
+    "C:\\Users\\dogan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.0.0\\microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

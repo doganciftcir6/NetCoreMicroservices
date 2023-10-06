@@ -1,0 +1,1 @@
+C:\Users\dogan\OneDrive\Masaüstü\UdemyMicroservices\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache

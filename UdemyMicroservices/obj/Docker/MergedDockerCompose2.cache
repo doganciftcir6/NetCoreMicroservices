@@ -1,0 +1,111 @@
+name: dockercompose15645583579019118174
+services:
+  basketdb:
+    container_name: basketdb
+    image: redis
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 6379
+      published: "6379"
+      protocol: tcp
+    restart: always
+  catalogdb:
+    container_name: catalogdb
+    image: mongo
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 27017
+      published: "27017"
+      protocol: tcp
+    restart: always
+    volumes:
+    - type: volume
+      target: catalogdb_volume/data/db
+      volume: {}
+  discountdb:
+    container_name: discountdb
+    environment:
+      POSTGRES_DB: discountdb
+      POSTGRES_PASSWORD: Password12*
+      POSTGRES_USER: admin
+    image: postgres
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 5432
+      published: "5432"
+      protocol: tcp
+    restart: always
+    volumes:
+    - type: volume
+      source: discountdb_volume
+      target: /var/lib/postgresql/data
+      volume: {}
+  identitydb:
+    container_name: identitydb
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: Password12*
+    image: mcr.microsoft.com/mssql/server
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 1433
+      published: "1433"
+      protocol: tcp
+    restart: always
+    volumes:
+    - type: volume
+      source: identitydb_volume
+      target: /var/opt/mssql/data
+      volume: {}
+  orderdb:
+    container_name: orderdb
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: Password12*
+    image: mcr.microsoft.com/mssql/server
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 1433
+      published: "1444"
+      protocol: tcp
+    restart: always
+    volumes:
+    - type: volume
+      source: orderdb_volume
+      target: /var/opt/mssql/data
+      volume: {}
+  rabbitmq:
+    container_name: rabbitmq
+    image: rabbitmq:3.8.14-management
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 5672
+      published: "5672"
+      protocol: tcp
+    - mode: ingress
+      target: 15672
+      published: "15672"
+      protocol: tcp
+    restart: always
+networks:
+  default:
+    name: dockercompose15645583579019118174_default
+volumes:
+  discountdb_volume:
+    name: dockercompose15645583579019118174_discountdb_volume
+  identitydb_volume:
+    name: dockercompose15645583579019118174_identitydb_volume
+  orderdb_volume:
+    name: dockercompose15645583579019118174_orderdb_volume
