@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "tREuMsa3YEidqZ/g4ejPOQWzsZINiIVcA0rK69yworc=",
+  "Source": "FreeCourse.Services.PhotoStock",
+  "BasePath": "_content/FreeCourse.Services.PhotoStock",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "FreeCourse.Services.PhotoStock\\wwwroot",
+      "Source": "FreeCourse.Services.PhotoStock",
+      "ContentRoot": "C:\\Users\\dogan\\OneDrive\\Belgeler\\GitHub\\NetCoreMicroservices\\UdemyMicroservices\\Services\\PhotoStock\\FreeCourse.Services.PhotoStock\\wwwroot\\",
+      "BasePath": "_content/FreeCourse.Services.PhotoStock",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\dogan\\OneDrive\\Belgeler\\GitHub\\NetCoreMicroservices\\UdemyMicroservices\\Services\\PhotoStock\\FreeCourse.Services.PhotoStock\\wwwroot\\photos\\6835a5b2-e4b2-4962-81a3-27656d19b5f3.jpg",
+      "SourceId": "FreeCourse.Services.PhotoStock",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dogan\\OneDrive\\Belgeler\\GitHub\\NetCoreMicroservices\\UdemyMicroservices\\Services\\PhotoStock\\FreeCourse.Services.PhotoStock\\wwwroot\\",
+      "BasePath": "_content/FreeCourse.Services.PhotoStock",
+      "RelativePath": "photos/6835a5b2-e4b2-4962-81a3-27656d19b5f3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\photos\\6835a5b2-e4b2-4962-81a3-27656d19b5f3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\dogan\\OneDrive\\Belgeler\\GitHub\\NetCoreMicroservices\\UdemyMicroservices\\Services\\PhotoStock\\FreeCourse.Services.PhotoStock\\wwwroot\\photos\\999f733d-e5a5-4b42-988c-6c4106e94863.jpg",
+      "SourceId": "FreeCourse.Services.PhotoStock",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dogan\\OneDrive\\Belgeler\\GitHub\\NetCoreMicroservices\\UdemyMicroservices\\Services\\PhotoStock\\FreeCourse.Services.PhotoStock\\wwwroot\\",
+      "BasePath": "_content/FreeCourse.Services.PhotoStock",
+      "RelativePath": "photos/999f733d-e5a5-4b42-988c-6c4106e94863.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\photos\\999f733d-e5a5-4b42-988c-6c4106e94863.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\dogan\\OneDrive\\Belgeler\\GitHub\\NetCoreMicroservices\\UdemyMicroservices\\Services\\PhotoStock\\FreeCourse.Services.PhotoStock\\wwwroot\\photos\\b1e26a01-955a-4a10-9f2f-2511ec6c8ed4.jpg",
+      "SourceId": "FreeCourse.Services.PhotoStock",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dogan\\OneDrive\\Belgeler\\GitHub\\NetCoreMicroservices\\UdemyMicroservices\\Services\\PhotoStock\\FreeCourse.Services.PhotoStock\\wwwroot\\",
+      "BasePath": "_content/FreeCourse.Services.PhotoStock",
+      "RelativePath": "photos/b1e26a01-955a-4a10-9f2f-2511ec6c8ed4.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\photos\\b1e26a01-955a-4a10-9f2f-2511ec6c8ed4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\dogan\\OneDrive\\Belgeler\\GitHub\\NetCoreMicroservices\\UdemyMicroservices\\Services\\PhotoStock\\FreeCourse.Services.PhotoStock\\wwwroot\\photos\\ecf00c31-c847-42ab-a7e8-0a76655f11e0.jpg",
+      "SourceId": "FreeCourse.Services.PhotoStock",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dogan\\OneDrive\\Belgeler\\GitHub\\NetCoreMicroservices\\UdemyMicroservices\\Services\\PhotoStock\\FreeCourse.Services.PhotoStock\\wwwroot\\",
+      "BasePath": "_content/FreeCourse.Services.PhotoStock",
+      "RelativePath": "photos/ecf00c31-c847-42ab-a7e8-0a76655f11e0.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\photos\\ecf00c31-c847-42ab-a7e8-0a76655f11e0.jpg"
+    }
+  ]
+}

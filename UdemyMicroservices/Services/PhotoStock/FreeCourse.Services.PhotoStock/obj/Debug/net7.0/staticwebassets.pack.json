@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\dogan\\OneDrive\\Belgeler\\GitHub\\NetCoreMicroservices\\UdemyMicroservices\\Services\\PhotoStock\\FreeCourse.Services.PhotoStock\\wwwroot\\photos\\6835a5b2-e4b2-4962-81a3-27656d19b5f3.jpg",
+      "PackagePath": "staticwebassets\\photos\\6835a5b2-e4b2-4962-81a3-27656d19b5f3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dogan\\OneDrive\\Belgeler\\GitHub\\NetCoreMicroservices\\UdemyMicroservices\\Services\\PhotoStock\\FreeCourse.Services.PhotoStock\\wwwroot\\photos\\999f733d-e5a5-4b42-988c-6c4106e94863.jpg",
+      "PackagePath": "staticwebassets\\photos\\999f733d-e5a5-4b42-988c-6c4106e94863.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dogan\\OneDrive\\Belgeler\\GitHub\\NetCoreMicroservices\\UdemyMicroservices\\Services\\PhotoStock\\FreeCourse.Services.PhotoStock\\wwwroot\\photos\\b1e26a01-955a-4a10-9f2f-2511ec6c8ed4.jpg",
+      "PackagePath": "staticwebassets\\photos\\b1e26a01-955a-4a10-9f2f-2511ec6c8ed4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dogan\\OneDrive\\Belgeler\\GitHub\\NetCoreMicroservices\\UdemyMicroservices\\Services\\PhotoStock\\FreeCourse.Services.PhotoStock\\wwwroot\\photos\\ecf00c31-c847-42ab-a7e8-0a76655f11e0.jpg",
+      "PackagePath": "staticwebassets\\photos\\ecf00c31-c847-42ab-a7e8-0a76655f11e0.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.FreeCourse.Services.PhotoStock.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.FreeCourse.Services.PhotoStock.props",
+      "PackagePath": "build\\FreeCourse.Services.PhotoStock.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.FreeCourse.Services.PhotoStock.props",
+      "PackagePath": "buildMultiTargeting\\FreeCourse.Services.PhotoStock.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.FreeCourse.Services.PhotoStock.props",
+      "PackagePath": "buildTransitive\\FreeCourse.Services.PhotoStock.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

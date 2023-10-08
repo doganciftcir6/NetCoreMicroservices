@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Docker Compose": {
+      "commandName": "DockerCompose",
+      "commandVersion": "1.0",
+      "serviceActions": {
+        "freecourse.gateway": "StartDebugging",
+        "freecourse.web": "StartDebugging"
+      }
+    }
+  }
+}
